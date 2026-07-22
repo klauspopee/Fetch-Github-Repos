@@ -40,3 +40,28 @@ body {
     padding: 20px;
     background-color: #e0e0e0;
 } 
+.repos-container .show-data .repos-box {
+    background-color: #fff;
+    padding: 15px;
+}
+.repos-container .show-data .repos-box:not(:last-child) {
+    margin-bottom: 5px;
+}
+.repos-container .show-data .repos-box a,
+.repos-container .show-data .repos-box span {
+    float: right;
+    margin-left: 5px;
+    border-radius: 5px;
+    color: white;
+    font-size: 12px;
+    width: 80px;
+    text-align: center;
+    padding: 4px;
+}
+.repos-container .show-data .repos-box a {
+    text-decoration: none;
+    background-color: #e91e63;
+}
+.repos-container .show-data .repos-box span {
+    background-color: #009688;
+}
